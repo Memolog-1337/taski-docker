@@ -125,6 +125,7 @@ jobs:
           context: ./gateway/
           push: true
           tags: memolog1337/taski_gateway:latest
+          
   deploy:
     runs-on: ubuntu-latest
     needs:
